@@ -104,7 +104,7 @@ struct Katie {
                 where !candidate.interest.contains(interest) {
                     difference.append(interest)
                 }
-                // Prevents duplicate pairings
+                // Prevent duplicate pairings
                 
                 func sortPair  (lhs: Person, rhs: Person) -> Bool {
                     lhs.name < rhs.name
