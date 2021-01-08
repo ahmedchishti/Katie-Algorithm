@@ -52,7 +52,7 @@ func getInterests() -> [String: [String]] {
         
         "Steve Jobs": ["Apple", "Business", "Technology", "Finance", "Innovation"],
         
-        "Tom Cruise": ["Acting", "Movies", "Sports", "Awards", "Aviation"],
+        "Tom Cruise": ["Acting", "Aviation"],
         
         "Will Smith": ["Movies", "Acting", "Rap", "Awards", "Technology", "Clothing", "Basketball", "Dancing"],
         

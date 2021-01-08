@@ -49,10 +49,10 @@ struct Katie {
     }
     // Katie asks for introduction
     
-    func introduceGuys() {
+    func introduceParticipants() {
         print("Katie: Please introduce yourselves...\n")
-        for guy in participants {
-            print("Hi, my name is \(guy.name), I'm \(guy.age) and I grew up in \(guy.hometown).", "\n")
+        for participant in participants {
+            print("Hi, my name is \(participant.name), I'm \(participant.age) and I grew up in \(participant.hometown).", "\n")
         }
     }
     

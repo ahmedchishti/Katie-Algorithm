@@ -11,7 +11,7 @@ import Foundation
 var katie = Katie() // The view knows about the view model, the view does not know about the model itself.
 
 katie.getParticipants()
-katie.introduceGuys()
+katie.introduceParticipants()
 katie.iterateInterests()
 katie.pairInterests()
 katie.sayThanks()
