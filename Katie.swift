@@ -97,25 +97,29 @@ struct Katie {
                 candidates.shuffle()
                 let candidate = candidates[0]
                 
-                var difference: [String] = []
-                
-                // Forms difference by comparing both candidate and person interests
-                for interest in person.interest
-                where !candidate.interest.contains(interest) {
-                    difference.append(interest)
-                }
-                // Prevent duplicate pairings
+                // Prevents duplicate pairings
                 
                 func sortPair  (lhs: Person, rhs: Person) -> Bool {
                     lhs.name < rhs.name
                 }
                 
-                let pair = [person, candidate].sorted(by:sortPair)
+                // Forms difference by comparing both candidate and person interests
+                let pair = [person, candidate].sorted(by: sortPair)
+                var difference: [String] = []
                 
-                if !difference.isEmpty {
-                    matches[pair] = difference
+                if matches[pair] == nil {
+                    for interest in person.interest
+                    where !candidate.interest.contains(interest) {
+                        difference+=[interest]
+                    }
+                    for interest in candidate.interest
+                    where !person.interest.contains(interest) {
+                        difference+=[interest]
+                    }
+                    if !difference.isEmpty {
+                        matches.updateValue(difference, forKey: pair)
+                    }
                 }
-                
                 candidates.remove(at: 0)
             }
         }
@@ -161,4 +165,3 @@ struct Katie {
         }
     }
 }
-

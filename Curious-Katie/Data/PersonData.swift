@@ -46,27 +46,27 @@ func getInterests() -> [String: [String]] {
         
         "Bill Gates": ["Business", "Technology", "Philanthropy", "Microsoft", "Cooking"],
         
-        "Jeff Bezos": ["Business", "Finance", "Technology", "Amazon", "Travel"],
+        "Jeff Bezos": ["Business", "Finance", "Technology", "Amazon", "Travel", "Social Media", "Money", "Innovation"],
         
-        "Mark Zuckerberg": ["Facebook", "Technology", "Business", "Innovation", "Social Media"],
+        "Mark Zuckerberg": ["Facebook", "Technology", "Business", "Innovation", "Social Media", "Music", "News", "Money", "Video Games", "Sports"],
         
         "Steve Jobs": ["Apple", "Business", "Technology", "Finance", "Innovation"],
         
         "Tom Cruise": ["Acting", "Movies", "Sports", "Awards", "Aviation"],
         
-        "Will Smith": ["Movies", "Acting", "Rap", "Awards", "Technology"],
+        "Will Smith": ["Movies", "Acting", "Rap", "Awards", "Technology", "Clothing", "Basketball", "Dancing"],
         
-        "Johnny Depp": ["Movies", "Acting", "Awards", "Politics", "Travel"],
+        "Johnny Depp": ["Movies", "Acting", "Awards", "Politics", "Travel", "Cooking", "Dancing"],
         
-        "Tom Holland": ["Movies", "Marvel", "Acting", "Awards", "Cooking"],
+        "Tom Holland": ["Movies", "Marvel", "Acting", "Awards", "Cooking", "Social Media"],
         
-        "Drake": ["Music", "Rap", "Finance", "Sports", "Jewelry"],
+        "Drake": ["Music", "Rap", "Finance", "Sports", "Jewelry", "Dancing"],
         
         "Zayn Malik": ["Music", "Sports", "Awards", "Social Media", "Fashion"],
         
-        "Travis Scott": ["Music", "Rap", "Social Media", "Awards", "Sneakers"],
+        "Travis Scott": ["Music", "Rap", "Social Media", "Awards", "Sneakers", "Money", "Fashion", "Video Games", "Jewelry", "Sports"],
         
-        "Ahmed Chishti": ["Apple", "Technology", "Movies", "Social Media", "Travel"]
+        "Ahmed Chishti": ["Apple", "Technology", "Movies", "Social Media", "Travel", "Rap", "Video Games", "Sports", "Finance"]
         
     ]
     

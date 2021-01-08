@@ -15,4 +15,3 @@ katie.introduceGuys()
 katie.iterateInterests()
 katie.pairInterests()
 katie.sayThanks()
-
